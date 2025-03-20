@@ -1,0 +1,127 @@
+[debug] [2025-01-27T14:50:15.074Z] ----------------------------------------------------------------------
+[debug] [2025-01-27T14:50:15.124Z] Command:       C:\nvm4w\nodejs\node.exe C:\Users\Amahle\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-01-27T14:50:15.124Z] CLI Version:   13.29.2
+[debug] [2025-01-27T14:50:15.125Z] Platform:      win32
+[debug] [2025-01-27T14:50:15.125Z] Node Version:  v22.12.0
+[debug] [2025-01-27T14:50:15.125Z] Time:          Mon Jan 27 2025 16:50:15 GMT+0200 (South Africa Standard Time)
+[debug] [2025-01-27T14:50:15.125Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-27T14:50:15.453Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-27T14:50:15.454Z] > authorizing via signed-in user (amahlehani09@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting, extensions"}}
+[debug] [2025-01-27T14:50:15.458Z] Checked if tokens are valid: true, expires at: 1737992050326
+[debug] [2025-01-27T14:50:15.458Z] Checked if tokens are valid: true, expires at: 1737992050326
+[debug] [2025-01-27T14:50:15.459Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/clone-2ce54 [none]
+[debug] [2025-01-27T14:50:17.176Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/clone-2ce54 200
+[debug] [2025-01-27T14:50:17.176Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/clone-2ce54 {"projectNumber":"436534612732","projectId":"clone-2ce54","lifecycleState":"ACTIVE","name":"amazon-clone","labels":{"firebase":"enabled"},"createTime":"2024-11-24T19:32:08.706566Z"}
+[debug] [2025-01-27T14:50:17.207Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-01-27T14:50:17.207Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-01-27T14:50:17.207Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-01-27T14:50:17.212Z] [hub] writing locator at C:\Users\Amahle\AppData\Local\Temp\hub-clone-2ce54.json
+[debug] [2025-01-27T14:50:17.222Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2025-01-27T14:50:17.237Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-01-27T14:50:17.237Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-01-27T14:50:17.237Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-01-27T14:50:17.237Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2025-01-27T14:50:17.241Z] defaultcredentials: writing to file C:\Users\Amahle\AppData\Roaming\firebase\amahlehani09_gmail_com_application_default_credentials.json
+[debug] [2025-01-27T14:50:17.243Z] Setting GAC to C:\Users\Amahle\AppData\Roaming\firebase\amahlehani09_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Amahle\\AppData\\Roaming\\firebase\\amahlehani09_gmail_com_application_default_credentials.json"}}
+[debug] [2025-01-27T14:50:17.244Z] Checked if tokens are valid: true, expires at: 1737992050326
+[debug] [2025-01-27T14:50:17.244Z] Checked if tokens are valid: true, expires at: 1737992050326
+[debug] [2025-01-27T14:50:17.244Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ce54/adminSdkConfig [none]
+[debug] [2025-01-27T14:50:37.957Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ce54/adminSdkConfig 200
+[debug] [2025-01-27T14:50:37.957Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ce54/adminSdkConfig {"projectId":"clone-2ce54","storageBucket":"clone-2ce54.firebasestorage.app"}
+[debug] [2025-01-27T14:50:38.028Z] Checked if tokens are valid: true, expires at: 1737992050326
+[debug] [2025-01-27T14:50:38.028Z] Checked if tokens are valid: true, expires at: 1737992050326
+[debug] [2025-01-27T14:50:38.039Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-2ce54/sites 
+[debug] [2025-01-27T14:51:01.699Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-2ce54/sites 200
+[debug] [2025-01-27T14:51:01.699Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-2ce54/sites {"sites":[{"name":"projects/clone-2ce54/sites/clone-2ce54","defaultUrl":"https://clone-2ce54.web.app","appId":"1:436534612732:web:b4a90eca70d8dee0543d79","type":"DEFAULT_SITE"}]}
+[debug] [2025-01-27T14:51:01.699Z] Checked if tokens are valid: true, expires at: 1737992050326
+[debug] [2025-01-27T14:51:01.700Z] Checked if tokens are valid: true, expires at: 1737992050326
+[debug] [2025-01-27T14:51:01.700Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ce54/webApps/1:436534612732:web:b4a90eca70d8dee0543d79/config [none]
+[debug] [2025-01-27T14:51:02.707Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ce54/webApps/1:436534612732:web:b4a90eca70d8dee0543d79/config 200
+[debug] [2025-01-27T14:51:02.707Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ce54/webApps/1:436534612732:web:b4a90eca70d8dee0543d79/config {"projectId":"clone-2ce54","appId":"1:436534612732:web:b4a90eca70d8dee0543d79","storageBucket":"clone-2ce54.firebasestorage.app","apiKey":"AIzaSyDtFAFEY19ZCV9Gd8VZ-8lzPkIrH5EhNBo","authDomain":"clone-2ce54.firebaseapp.com","messagingSenderId":"436534612732","measurementId":"G-MNGHQKZDB4"}
+[debug] [2025-01-27T14:51:02.750Z] Checked if tokens are valid: true, expires at: 1737992050326
+[debug] [2025-01-27T14:51:02.750Z] Checked if tokens are valid: true, expires at: 1737992050326
+[debug] [2025-01-27T14:51:02.750Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ce54 [none]
+[debug] [2025-01-27T14:51:03.113Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ce54 200
+[debug] [2025-01-27T14:51:03.113Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-2ce54 {"projectId":"clone-2ce54","projectNumber":"436534612732","displayName":"amazon-clone","name":"projects/clone-2ce54","resources":{"hostingSite":"clone-2ce54"},"state":"ACTIVE","etag":"1_4d9b61b6-eb3e-4c33-ac96-f6020bf6a637"}
+[info] +  hosting[clone-2ce54]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2025-01-27T14:51:03.271Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "C:\Users\Amahle\Desktop\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Amahle\\Desktop\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2025-01-27T14:51:03.282Z] Validating nodejs source
+[debug] [2025-01-27T14:51:13.311Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1120:20)
+    at Object.spawnSync (node:child_process:868:24)
+    at Function.spawnSync [as sync] (C:\Users\Amahle\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\Amahle\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\Amahle\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\Amahle\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:86:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\Amahle\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:331:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\Amahle\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:371:34)
+    at async FunctionsEmulator.connect (C:\Users\Amahle\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:297:13)
+    at async Object.startAll (C:\Users\Amahle\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:671:13)
+[debug] [2025-01-27T14:51:13.311Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.2",
+    "firebase-functions": "^6.3.0",
+    "firebase-tools": "^13.29.2",
+    "stripe": "^17.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-01-27T14:51:13.312Z] Building nodejs source
+[debug] [2025-01-27T14:51:13.312Z] Failed to find version of module node: reached end of search path C:\Users\Amahle\Desktop\amazon-clone\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[debug] [2025-01-27T14:51:13.356Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-01-27T14:51:13.394Z] Found firebase-functions binary at 'C:\Users\Amahle\Desktop\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8810
+
+[error] (node:13256) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[debug] [2025-01-27T14:51:37.931Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: connect ECONNREFUSED ::1:40001. If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Hosting    │ 127.0.0.1:5000 │ n/a                              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

@@ -1,0 +1,8 @@
+.not_found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    background-color: white;
+}

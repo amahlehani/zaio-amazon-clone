@@ -1,0 +1,48 @@
+.checkout_product {
+    display: flex;
+    margin: 20px 0;
+}
+
+.checkout_product_img {
+    width: 20%;
+    height: 20%;
+    border: 1px solid lightgray;
+    padding: 30px;
+    margin: 0 80px;
+}
+
+.checkout_product_info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 20px 20px;
+}
+
+.checkout_product_title {
+    text-align: left;
+}
+
+.checkout_product_price {
+    margin: 0 0 20px 0;
+    text-align: left;
+}
+
+.checkout_product_rating {
+    display: flex;
+}
+
+.checkout_product_rating p {
+    margin: 7px 0;
+}
+
+.remove_product_btn button {
+    background-color: #f7ca00;
+    border: none;
+    width: 500px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.remove_product_btn button:hover {
+    background-color: #e9ac13;
+    cursor: pointer;
+}
